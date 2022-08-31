@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    
+  background-image: url("img/yente-van-eynde-MecG7GC4APk-unsplash\ \(1\).jpg"); /* The image used */
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family:  sans-serif;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width:400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style:none ;
+    margin-left: 62px;
+    margin-left: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(61, 104, 141);
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(236, 16, 16);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+ .srch{
+    font-family: Times New Roman;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.856);
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color:white;
+ }
+ .btn{
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(70, 5, 5);
+    color: white;
+    margin-top: 13px;
+    font-size: 16px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+ .btn:focus{
+    outline: none;
+ }
+ .srch:focus{
+    outline: none;
+ }
+ .content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+ }
+ .content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:#ffffff;
+    position: relative;
+
+ }
+ .content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    color: rgb(58, 58, 231);
+    letter-spacing: 2px;
+
+ }
+ .content .cm{
+    width: 100px;
+    height: 40px;
+    background-color: chocolate;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .4s ease;
+ }
+ .content .cm a{
+    text-decoration: none;
+    transition: .3s ease;
+ }
+ .cm:hover{
+    background-color: white;
+    color: rgb(51, 219, 219);
+
+ }
+ .form{
+    width: 250px;
+    height: 380px;
+  background-image: linear-gradient(180deg, rgb(31, 153, 116), rgb(110, 110, 77));
+  position: absolute;
+  top: -10px;
+  left: 870px;
+  padding:26px;
+ }
+ .form h2{
+    font-family: sans-serif;
+    font-size: 22px;
+    background-color: rgb(76, 145, 145);
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 12px;
+ }
+ .form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.616);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:#ffffff;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+ }
+ .form input:focus{
+    outline: none;
+ }
+ ::placeholder{
+    font-family: Arial;
+    font-size: 16px;
+    color: #000;
+ }
+ .btnn{
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+ }
+ .btnn:hover{
+    background-color: white;
+    color: chartreuse;
+ }
+ .btnn a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20PX;
+    text-align: center;
+
+ }
+ .form .link a{
+    text-decoration: none;
+    color: #000;
+ }
+ .linkwidth{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+ }
